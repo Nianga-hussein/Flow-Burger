@@ -1,0 +1,310 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAV ICON -->
+    <link rel="icon" href="images/fav-icon.png">
+
+    <!-- WEB TITLE -->
+    <title>Flow Burger</title>
+
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- ICOFONT CSS -->
+    <link rel="stylesheet" href="css/icofont.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- FONTS -->
+    <link href="../../css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="../../css2-1?family=Lobster+Two:wght@400;700&display=swap" rel="stylesheet">
+    <link href="../../css2-2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- BACK TO TOP -->
+    <a href="javascript:" id="return-to-top">
+        <i class="icofont-rounded-up"></i>
+    </a>
+
+    <!-- =============== NAVBAR SECTION =============== -->
+    <header id="tb-header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" alt="logo" class="img-fluid">
+                </a>
+                <button id="ChangeToggle" class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="lines line-1"></span>
+                    <span class="lines line-2"></span>
+                    <span class="lines line-3"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link section-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link section-link" href="about-us.html">about us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link section-link" href="services.html">services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link section-link" href="gallery.html">gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link section-link" href="blog-list.html">blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link tb-contact-link active" href="contact.html">contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- =============== BREAD CRUMB SECTION =============== -->
+    <div id="tb-bread-crumb">
+        <img src="images/bread-crumb-img.jpg" alt="bread-crumb-img" class="img-fluid">
+        <div class="tb-bread-crumb-content">
+            <h1 class="tb-section-title">Contact Us</h1>
+            <div class="tb-page-link">
+                <a href="index.html" class="tb-other-page-link">home</a>
+                <p class="tb-page-link">contact us</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- =============== FORM SECTION =============== -->
+    <div id="tb-form">
+        <div class="container">
+            <div class="tb-form-section-content">
+                <div class="tb-section-title-desc">
+                    <h3 class="section-sub-title">Contact Us</h3>
+                    <h2 class="tb-section-title">Send Us Message</h2>
+                    <p class="tb-section-detail">Lorem Ipsum is simply dummy text of the printing and unknown printer
+                        typesetting industry. </p>
+                </div>
+                <form action="https://formspree.io/f/myyleorq" method="POST" id="dreamit-form">
+                    <div class="tb-form-section-input-section">
+                        <div class="tb-input-box tb-full-name">
+                            <i class="icofont-user-alt-7"></i>
+                            <input type="text" placeholder="Full Name" class="contect-name tb-contact-page-name" required="">
+                        </div>
+                        <div class="tb-input-box tb-email">
+                            <i class="icofont-email"></i>
+                            <input type="email" placeholder="Email" class="contect-name tb-contact-page-email" required="">
+                        </div>
+                    </div>
+                    <div class="tb-form-section-input-section">
+                        <div class="tb-input-box tb-call">
+                            <i class="icofont-phone"></i>
+                            <input type="tel" class="contect-name tb-contact-page-phone" placeholder="Phone" name="contact" data-validation="custom" data-validation-regexp="^[6789]\d{9}$" data-validation-error-msg="Contact No. is not a valid number." required="">
+                        </div>
+                        <div class="tb-input-box tb-subject">
+                            <i class="icofont-ui-file"></i>
+                            <input type="text" placeholder="Subject" class="tb-contact-page-subject" required="">
+                        </div>
+                    </div>
+                    <div class="tb-textarea-box">
+                        <i class="icofont-pencil-alt-2"></i>
+                        <textarea placeholder="Message" class="tb-contact-page-message" cols="30" rows="5" required=""></textarea>
+                    </div>
+                    <input type="submit" value="Submit" name="submit" class="tb-common-btn tb-contact-page-submit-button">
+                    <div id="status"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- =============== MAP SECTION =============== -->
+    <div id="tb-contact-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d929.7510667124697!2d72.8656888010128!3d21.231679393719162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f6d720bd69d%3A0xc9b848dc4938fe8b!2sTemplate%20Bunch!5e0!3m2!1sen!2sin!4v1659164638740!5m2!1sen!2sin" style="border:0;" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- =============== NEWSLETTER SECTION =============== -->
+    <div id="tb-newsletter">
+        <div class="tb-newsletter-section">
+            <div class="container">
+                <div class="tb-newsletter-bg">
+                    <div class="row">
+                        <div class="col-lg-6 align-self-center">
+                            <div class="tb-newsletter-content">
+                                <i class="icofont-ui-message"></i>
+                                <h3 class="tb-newsletter-section-title">Subscribe Our Newsletter</h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 align-self-center">
+                            <form class="tb-input-box">
+                                <input type="newsletter" placeholder="Enter your newsletter" required="">
+                                <button type="submit" class="tb-common-btn">
+                                    <span>Subscribe</span>
+                                    <i class="icofont-paper-plane"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =============== FOOTER SECTION =============== -->
+    <footer id="tb-footer">
+        <div class="tb-section-padding">
+            <div class="tb-footer-section">
+                <div class="container">
+                    <div class="row tb-footer-content">
+                        <div class="col-lg-3 tb-footer-col">
+                            <a href="index.html" class="tb-footer-logo">
+                                <img src="images/footer-logo.png" alt="logo" class="img-fluid">
+                            </a>
+                            <p class="tb-footer-content-detail">I use Lorem ipsum text all day long and spend hours
+                                formatting
+                                it, so I set this site up
+                                to
+                                make my day a little easier.</p>
+                        </div>
+                        <div class="col-lg-3 tb-footer-col tb-footer-toggle-menu">
+                            <div class="tb-footer-section-title">
+                                <h5>Quick Links</h5>
+                            </div>
+                            <ul class="tb-footer-section-body">
+                                <li><a href="index.html"><i class="icofont-caret-right"></i>home</a></li>
+                                <li><a href="about-us.html"><i class="icofont-caret-right"></i>About Us</a></li>
+                                <li><a href="services.html"><i class="icofont-caret-right"></i>Services</a></li>
+                                <li><a href="gallery.html"><i class="icofont-caret-right"></i>Gallery</a></li>
+                                <li><a href="blog-list.html"><i class="icofont-caret-right"></i>Blog</a></li>
+                                <li><a href="contact.html"><i class="icofont-caret-right"></i>Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 tb-footer-col tb-footer-toggle-menu">
+                            <div class="tb-footer-section-title">
+                                <h5>Contact us</h5>
+                            </div>
+                            <div class="tb-footer-section-body">
+                                <div class="tb-footer-detail">
+                                    <i class="icofont-location-pin"></i>
+                                    <div class="tb-footer-detail-content">
+                                        <div class="tb-footer-detail-title">Location :</div>
+                                        <p>A20 Green Hill Road, Fayetteville,California</p>
+                                    </div>
+                                </div>
+                                <div class="tb-footer-detail">
+                                    <i class="icofont-ui-call"></i>
+                                    <div class="tb-footer-detail-content">
+                                        <div class="tb-footer-detail-title">Phone :</div>
+                                        <a href="tel:+1209-223-2635">+1 209-223-2635</a>
+                                    </div>
+                                </div>
+                                <div class="tb-footer-detail">
+                                    <i class="icofont-email"></i>
+                                    <div class="tb-footer-detail-content">
+                                        <div class="tb-footer-detail-title">Email :</div>
+                                        <a href="mailto:info@radiancejewellery.com">info@radiancejewellery.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 tb-footer-col tb-footer-toggle-menu">
+                            <div class="tb-footer-section-title">
+                                <h5>Instagram</h5>
+                            </div>
+                            <div class="tb-footer-section-body">
+                                <div class="tb-footer-img-section">
+                                    <a href="#" class="tb-footer-img">
+                                        <img src="images/footer-img-1.jpg" alt="footer-img" class="img-fluid">
+                                        <div class="tb-instagram-icon">
+                                            <i class="icofont-instagram"></i>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="tb-footer-img">
+                                        <img src="images/footer-img-2.jpg" alt="footer-img" class="img-fluid">
+                                        <div class="tb-instagram-icon">
+                                            <i class="icofont-instagram"></i>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="tb-footer-img">
+                                        <img src="images/footer-img-3.jpg" alt="footer-img" class="img-fluid">
+                                        <div class="tb-instagram-icon">
+                                            <i class="icofont-instagram"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="tb-footer-img-section">
+                                    <a href="#" class="tb-footer-img">
+                                        <img src="images/footer-img-4.jpg" alt="footer-img" class="img-fluid">
+                                        <div class="tb-instagram-icon">
+                                            <i class="icofont-instagram"></i>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="tb-footer-img">
+                                        <img src="images/footer-img-5.jpg" alt="footer-img" class="img-fluid">
+                                        <div class="tb-instagram-icon">
+                                            <i class="icofont-instagram"></i>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="tb-footer-img">
+                                        <img src="images/footer-img-6.jpg" alt="footer-img" class="img-fluid">
+                                        <div class="tb-instagram-icon">
+                                            <i class="icofont-instagram"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="tb-footer-bottom-section row">
+                        <div class="col-lg-8 align-self-center">
+                            <p class="tb-copy-right-text">Copyright © 2023 <a href="#">Flow Burger.</a> All
+                                Rights
+                                Reserved.</p>
+                        </div>
+                        <div class="col-lg-4 align-self-center">
+                            <div class="tb-footer-social-icon">
+                                <a href="#">
+                                    <i class="icofont-facebook"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="icofont-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="icofont-skype"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="icofont-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JQUERY JS -->
+    <script src="js/jquery.js"></script>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- CUSTOM JS -->
+    <script src="js/script.js"></script>
+    <script src="js/ajax-mail.js"></script>
+
+</body>
+
+</html>
