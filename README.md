@@ -12,7 +12,7 @@
 
 <br/>
 
-> 🌐 **[Voir la démo en direct →](https://templatebunch.com/website/flow-burger/index.html)**
+> 🌐 **[Voir la démo en direct →]([https://templatebunch.com/website/flow-burger/index.html](https://nianga-hussein.github.io/Flow-Burger/))**
 
 <br/>
 
@@ -121,7 +121,7 @@ La palette a été pensée pour évoquer la chaleur, l'appétit et le prestige d
 ### Nianga Hussein
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nianga-hussein)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([#](https://www.linkedin.com/in/hussein-claude-nianga-7a0b43250/?skipRedirect=true))
 
 *Développeur Web passionné | Designer UI/UX | Créateur de solutions numériques*
 
